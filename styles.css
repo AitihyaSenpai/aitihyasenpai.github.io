@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-card {
+  background-color: #008080;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  position: relative;
+}
+
+.profile-info h2 {
+  margin: 15px 0 5px;
+  font-size: 24px;
+  color: #e2e8dd;
+}
+
+.profile-info p {
+  color: #95a3a4;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+
+.social-links {
+  background-color: #18a4a4;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 258px;
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.social-links a {
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline-block;
+  transition: all 0.4s ease;
+}
+
+.social-links a.instagram {
+  background-color: #56d9d9;
+}
+
+.social-links a.reddit {
+  background-color: #56d9d9;
+}
+.social-links a.twitter {
+  background-color: #56d9d9;
+}
+.social-links a.email {
+  background-color: #56d9d9;
+}
+
+.social-links a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin: 0 15px;
+}
