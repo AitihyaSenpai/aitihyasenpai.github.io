@@ -41,6 +41,7 @@ body {
   color: #ffffff;
   font-size: 18px;
 }
+
 .social-links {
   background-color: #18a4a4;
   border-radius: 15px;
@@ -52,16 +53,23 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
+
 .social-links a {
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  margin: 0 5px;
   display: inline-block;
   transition: all 0.4s ease;
-  
+  /* Add transparent border by default to prevent layout shift */
+  border: 1px solid transparent;
+  /* Consistent box-sizing to prevent size changes */
+  box-sizing: border-box;
+  /* Fixed width to prevent stretching */
+  min-width: 60px;
+  text-align: center;
 }
 
 .social-links a.instagram {
@@ -71,9 +79,11 @@ body {
 .social-links a.reddit {
   background-color: #56d9d9;
 }
+
 .social-links a.twitter {
   background-color: #56d9d9;
 }
+
 .social-links a.email {
   background-color: #56d9d9;
 }
@@ -81,8 +91,9 @@ body {
 .social-links a:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  margin: 0 15px;
   border: 1px solid #ffffff;
+  /* Keep background color consistent */
+  background-color: #56d9d9;
 }
 
 .profile-card {
@@ -99,6 +110,3 @@ body {
     transform: translateY(0);
   }
 }
-
-
-
