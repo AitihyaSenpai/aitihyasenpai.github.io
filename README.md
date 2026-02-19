@@ -5,11 +5,11 @@ A modern, responsive profile card component built with clean code and contempora
 
 ## Features
 
-- 🎨 Modern UI design with smooth animations
-- 📱 Fully responsive layout
-- ⚡ Lightweight and performant
-- 🎯 Easy to customize
-- ♿ Accessible markup
+
+https://github.com/user-attachments/assets/55c9fd13-cb2e-40f2-a0c8-7bf85ca2c3b7
+
+
+
 
 ## Getting Started
 
